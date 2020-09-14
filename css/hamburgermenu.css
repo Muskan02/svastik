@@ -143,7 +143,7 @@ body {
 }
 .navigation__button {
   position: fixed;
-  top: 6rem;
+  top: 2rem;
   right: 3rem;
   width: 7rem;
   height: 7rem;
@@ -156,7 +156,7 @@ body {
 }
 .navigation__background {
   position: fixed;
-  top: 6.5rem;
+  top: 2.5rem;
   right: 3.5rem;
   width: 6rem;
   height: 6rem;

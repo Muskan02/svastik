@@ -43,6 +43,7 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
+  scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
@@ -58,6 +59,16 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff; }
+
+::-webkit-scrollbar{
+background:transparent;
+width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #d1002c;
+  width:6px;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -9291,6 +9302,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   padding: 7em 0;
+  padding-bottom:2em;
   background: black;
   position: relative; }
   .ftco-footer .ftco-footer-logo {
@@ -10189,25 +10201,6 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-@media screen and (max-width:991px){
-  .mobile {
-    display:block;
-  }
-
-  .navbar {
-    display: none;
-  }
-}
-
-@media screen and (min-width:992px){
-  .mobile {
-    display:none;
-  }
-
-  .navbar {
-    display: block;
-  }
-}
 
 .parallax{
   min-height: 200px; 
@@ -10217,3 +10210,47 @@ textarea.form-control {
   background-size: cover;
 }
 
+
+.mobile {
+  display: none;
+}
+
+.mobile.scrolled{
+  position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    width:100vw;
+    height:100px;
+    margin: 0px;
+    z-index: 1000;
+    background: rgb(255,255,255) !important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition : 0.5s ease;
+}
+
+@media screen and (max-width:991px){
+  .mobile {
+    display:block;
+  }
+  .mobile .navbar-brand {
+    display: inline-block;
+    position:fixed;
+    top: 0.5rem;
+    z-index:999;
+    left: 3.5rem;
+    font-size: 5rem;
+    line-height: inherit;
+    white-space: nowrap; }
+   .mobile .navbar-brand:hover,.mobile .navbar-brand:focus {
+      text-decoration: none; }
+
+  .navbar {
+    display: none;
+  }
+}
+
+.navigation__checkbox:checked + .light {
+  color : #fff !important;
+}
