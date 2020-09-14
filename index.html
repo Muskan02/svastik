@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Avo - Free Bootstrap 4 Template by Colorlib</title>
+	<title>Svastik</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
@@ -16,13 +16,14 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	
 	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/hamburgermenu.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">a<span>v</span>o</a>
+			<a class="navbar-brand" href="index.html"><span>svastik</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -31,40 +32,68 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 				</ul>
 			</div>
+		</div>
+	</nav>
+	<nav class = "mobile">
+		<a class="navbar-brand" href="index.html"><span>svastik</span></a>
+		<div class="navigation">
+			<input type="checkbox" id="navi-toggle" class="navigation__checkbox" />
+
+			<label for="navi-toggle" class="navigation__button">
+			
+				<span class="navigation__icon">
+					<span class="navigation__icon-span">&nbsp;</span>
+					<span class="navigation__icon-span">&nbsp;</span>
+					<span class="navigation__icon-span">&nbsp;</span>
+					<span class="navigation__icon-span">&nbsp;</span>
+					<span class="navigation__icon-span">&nbsp;</span>
+					<span class="navigation__icon-span">&nbsp;</span>
+				</span>
+			</label>
+
+			<div class="navigation__background">&nbsp;</div>
+
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="index.html" class="navigation__link">Home</a>
+					</li>
+					<li class="navigation__item">
+						<a href="about.html" class="navigation__link">About</a>
+					</li>
+					<li class="navigation__item">
+						<a href="contact.html" class="navigation__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</nav>
 	<!-- END nav -->
 
 	<section class="hero-wrap degree-right js-fullheight">
 		<div class="home-slider js-fullheight owl-carousel">
-			<div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);">
+			<div class="slider-item js-fullheight " style="background-image:url('css/giphy.gif')">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row no-gutters slider-text js-fullheight align-items-center">
 						<div class="col-md-12 ftco-animate">
-							<div class="absolute">
-								<h4 class="number" data-number="400">0</h4>
-								<p>More than a hundred successful projects</p>
-							</div>
 							<div class="text">
-								<h1 class="mb-4">We Create Modern &amp; Minimal Website</h1>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<h1 class="mb-4">We Create, We Design &amp; We Innovate</h1>
+								<p>A group of innovators.</p>
 								<p class="mb-0"><a href="#" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Start Project</a></p>
 							</div>
 						</div>
-						<a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
-							<span class="fa fa-play"></span>
-						</a>
+						<!-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
+							<span class="fa fa-play"></span> -->
+						<!-- </a> -->
 					</div>
 				</div>
 			</div>
 
-			<div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
+			<!-- <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row no-gutters slider-text js-fullheight align-items-center">
@@ -84,7 +113,7 @@
 						</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
@@ -209,19 +238,19 @@
 								<div class="px-4 px-lg-4">
 									<div class="desc">
 										<div class="top">
-											<span class="subheading">Web Design</span>
-											<h2 class="mb-2"><a href="work.html">Cassette tape</a></h2>
+											<span class="subheading">Full Stack Web Development</span>
+											<h2 class="mb-2"><a href="work.html">Contactless Smart Menu</a></h2>
 										</div>
 										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="icon d-flex align-items-center mb-4">
+											<p>The aim of the project is to provide contactless menu to the customers on their phone by scanning QR Code. It also gives the facility of online payment.</p>
+											<!-- <div class="icon d-flex align-items-center mb-4">
 												<div class="img" style="background-image: url(images/person_1.jpg);"></div>
 												<div class="position pl-3">
 													<h4 class="mb-0">Jamie Jonson</h4>
 													<span>avo.com</span>
 												</div>
-											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
+											</div> -->
+											<p><a href="http://103.212.88.139:8000/" class="custom-btn">See live project</a></p>
 										</div>
 									</div>
 								</div>
@@ -240,21 +269,12 @@
 								<div class="px-4 px-lg-4">
 									<div class="desc text-md-right">
 										<div class="top">
-											<span class="subheading">Application</span>
-											<h2 class="mb-2"><a href="work.html">Miniwall Clock</a></h2>
+											<span class="subheading">Web Application and PWA</span>
+											<h2 class="mb-2"><a href="work.html">Koshagrah</a></h2>
 										</div>
 										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="d-flex w-100">
-												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-													<div class="position pl-3 text-left">
-														<h4 class="mb-0">Jamie Jonson</h4>
-														<span>avo.com</span>
-													</div>
-												</div>
-											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
+											<p>Koshagrah is a cross-platform solution for teachers and students to interact with each other in a particular organization. We can also create dynamic resumes. Koshagrah also provides the facility of personal chatting among members of organisation.</p>
+											<p><a href="https://koshagrah.pythonanywhere.com/" class="custom-btn">See live project</a></p>
 										</div>
 									</div>
 								</div>
@@ -273,19 +293,12 @@
 								<div class="px-4 px-lg-4">
 									<div class="desc">
 										<div class="top">
-											<span class="subheading">UI/UX Design</span>
-											<h2 class="mb-2"><a href="work.html">Avo Portfolio Agency</a></h2>
+											<span class="subheading">Application</span>
+											<h2 class="mb-2"><a href="work.html">World of Women Ads</a></h2>
 										</div>
 										<div class="absolute">
 											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_3.jpg);"></div>
-												<div class="position pl-3">
-													<h4 class="mb-0">Jamie Jonson</h4>
-													<span>avo.com</span>
-												</div>
-											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
+											<p><a href="http://wowads.pythonanywhere.com/" class="custom-btn">See Live project</a></p>
 										</div>
 									</div>
 								</div>
@@ -296,7 +309,7 @@
 
 				<div class="col-md-12 portfolio-wrap">
 					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-4.jpg);">
+						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-2.jpg);">
 							
 						</div>
 						<div class="col-md-7">
@@ -304,21 +317,12 @@
 								<div class="px-4 px-lg-4">
 									<div class="desc text-md-right">
 										<div class="top">
-											<span class="subheading">Web Development</span>
-											<h2 class="mb-2"><a href="work.html">Hand Writing</a></h2>
+											<span class="subheading">Block Chain Application</span>
+											<h2 class="mb-2"><a href="work.html">GST System - no more tax evasion</a></h2>
 										</div>
 										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="d-flex w-100">
-												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-													<div class="position pl-3 text-left">
-														<h4 class="mb-0">Jamie Jonson</h4>
-														<span>avo.com</span>
-													</div>
-												</div>
-											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
+											<p>The goal of the project is to reduce tax evasion using a decentralised Block Chain System.</p>
+											<!-- <p><a href="https://koshagrah.pythonanywhere.com/" class="custom-btn">See live project</a></p> -->
 										</div>
 									</div>
 								</div>
@@ -327,69 +331,6 @@
 					</div>
 				</div>
 
-				<div class="col-md-12 portfolio-wrap">
-					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 img" style="background-image: url(images/work-5.jpg);">
-							
-						</div>
-						<div class="col-md-7">
-							<div class="text pt-5 pl-md-5 pl-md-4 ftco-animate">
-								<div class="px-4 px-lg-4">
-									<div class="desc">
-										<div class="top">
-											<span class="subheading">Illustration</span>
-											<h2 class="mb-2"><a href="work.html">Keyboard</a></h2>
-										</div>
-										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="icon d-flex align-items-center mb-4">
-												<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-												<div class="position pl-3">
-													<h4 class="mb-0">Jamie Jonson</h4>
-													<span>avo.com</span>
-												</div>
-											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-12 portfolio-wrap">
-					<div class="row no-gutters align-items-center">
-						<div class="col-md-5 order-md-last img" style="background-image: url(images/work-6.jpg);">
-							
-						</div>
-						<div class="col-md-7">
-							<div class="text pt-5 pr-md-5 ftco-animate">
-								<div class="px-4 px-lg-4">
-									<div class="desc text-md-right">
-										<div class="top">
-											<span class="subheading">Web Development</span>
-											<h2 class="mb-2"><a href="work.html">Spiral</a></h2>
-										</div>
-										<div class="absolute">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-											<div class="d-flex w-100">
-												<div class="icon d-flex align-items-center ml-md-auto mb-4">
-													<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-													<div class="position pl-3 text-left">
-														<h4 class="mb-0">Jamie Jonson</h4>
-														<span>avo.com</span>
-													</div>
-												</div>
-											</div>
-											<p><a href="#" class="custom-btn">View Portfolio</a></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 		<div class="degree-left"></div>
@@ -486,91 +427,18 @@
 
 			<div class="row mt-5">
 				<div class="col-md-12">
-					<div class="intro p-md-4 py-md-5 p-2 rounded img" style="background-image: url(images/bg_1.jpg);">
+					<div class="intro p-md-4 py-md-5 p-2 rounded img parallax" style="background-image: url(images/parallax.jpg);">
 						<div class="col-md-6 ftco-animate">
-							<span>Get Started</span>
+							<!-- <span>Get Started</span>
 							<h2>Fill in the brief and get the project estimate</h2>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="#" class="btn btn-primary">Get started</a></p>
+							<p><a href="#" class="btn btn-primary">Get started</a></p> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<section class="ftco-section bg-light">
-		<div class="container">
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h2>Recent Blog</h2>
-				</div>
-			</div>
-			<div class="row d-flex">
-				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
-						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg');">
-							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
-						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');">
-							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
-						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_3.jpg');">
-							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
-						<div class="text">
-							<h3 class="heading mb-3"><a href="#">Amplify your blockchain team</a></h3>
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');">
-							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
-							</div>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="degree-left-footer"></div>
-	</section>		
 
 	<footer class="ftco-footer ftco-section">
 		<div class="container">

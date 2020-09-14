@@ -10202,6 +10202,15 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
+.parallax{
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .mobile {
   display: none;
 }
