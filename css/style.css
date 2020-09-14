@@ -10221,7 +10221,7 @@ textarea.form-control {
     left: 0;
     top: 0;
     width:100vw;
-    height:100px;
+    height:50px;
     margin: 0px;
     z-index: 1000;
     background: rgb(255,255,255) !important;
@@ -10239,8 +10239,8 @@ textarea.form-control {
     position:fixed;
     top: 0.5rem;
     z-index:999;
-    left: 3.5rem;
-    font-size: 5rem;
+    left: 2.5rem;
+    font-size: 3rem;
     line-height: inherit;
     white-space: nowrap; }
    .mobile .navbar-brand:hover,.mobile .navbar-brand:focus {
