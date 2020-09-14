@@ -145,8 +145,8 @@ body {
   position: fixed;
   top: 2rem;
   right: 3rem;
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
@@ -156,10 +156,10 @@ body {
 }
 .navigation__background {
   position: fixed;
-  top: 2.5rem;
-  right: 3.5rem;
-  width: 6rem;
-  height: 6rem;
+  top: 2rem;
+  right: 3rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-image: radial-gradient(#434343, #000);
   z-index: 10;
@@ -210,9 +210,9 @@ body {
 .navigation__icon {
   display: inline-block;
   position: relative;
-  width: 3rem;
-  height: 0.5rem;
-  top: 27%;
+  width: 2rem;
+  height: 0.25rem;
+  top: 17%;
   transition: transform 0.25s ease-in-out;
 }
 .navigation__icon-span {
