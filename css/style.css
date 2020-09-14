@@ -10188,3 +10188,32 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+@media screen and (max-width:991px){
+  .mobile {
+    display:block;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width:992px){
+  .mobile {
+    display:none;
+  }
+
+  .navbar {
+    display: block;
+  }
+}
+
+.parallax{
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
