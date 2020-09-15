@@ -10289,3 +10289,7 @@ textarea.form-control {
 .navigation__checkbox:checked + .light {
   color : #fff !important;
 }
+
+.validation {
+  color:red;
+}

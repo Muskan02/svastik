@@ -101,32 +101,38 @@
     <div class="col-md-7 heading-section text-center ftco-animate">
       <span class="subheading">Contact us</span>
       <h2 class="mb-4">Have a Project?</h2>
-      <p>A group of innovators.</p>
+      <p>Fill the details, connect with us and become part of amazing family.</p>
     </div>
   </div>
 
   <div class="row block-9">
     <div class="col-md-8">
-      <form action="#" class="p-4 p-md-5 contact-form">
+      <div id="sendmessage" class="text-center" style="display:none;color:#333; padding:10px 5px; border:5px solid teal">Your message has been sent. Thank you!</div>
+      <div id="errormessage"></div>
+      <form action="/contact.html" method="post" class="p-4 p-md-5 contact-form">
        <div class="row">
         <div class="col-md-6">
          <div class="form-group">
-          <input type="text" class="form-control" placeholder="Your Name">
+          <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required  >
+          <div class="validation"></div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Your Email">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          <div class="validation"></div>
         </div>
       </div>
       <div class="col-md-12">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Subject">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          <div class="validation"></div>
         </div>
       </div>
       <div class="col-md-12">
         <div class="form-group">
-          <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+          <textarea name="" id="message" cols="30" rows="7" name="message" class="form-control" placeholder="Message" required></textarea>
+          <div class="validation"></div> 
         </div>
       </div>
       <div class="col-md-12">
@@ -258,7 +264,7 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/scrollax.min.js"></script>
-
+<script src="js/contactform.js"></script>
 <script src="js/main.js"></script>
 
 </body>
