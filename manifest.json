@@ -1,0 +1,22 @@
+{
+    "name" : "Svastik",
+    "short_name" : "Svastik",
+    "lang": "en-US",
+    "categories": ["education,social,work"],
+    "icons": [
+      {
+        "src" : "images/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+     
+    ],
+    "description": "Team of four members from ABES Engineering College with an aim to develop better solutions for the world.",
+    "start_url" : "/",
+    "background_color" : "#fff",
+    "display" : "standalone",
+    "orientation" : "portrait-primary",
+    "scope" : "/",
+    "theme_color" : "#fff"
+    
+}
