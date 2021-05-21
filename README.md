@@ -3,4 +3,4 @@
 ### Muskan Maheshwari<br>
 ### Priyanshu Agarwal<br>
 ### Priyanshu Arora<br>
-### Rajat Srivastava
+### Rajat Shrivastava
