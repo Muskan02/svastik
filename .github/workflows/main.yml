@@ -1,0 +1,21 @@
+name: svastiktechnologies Firebase CD
+ 
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Firebase Deploy svastiktechnologies
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_AUTH_TOKEN }}'
+          projectId: svastiktechnologies
+          entryPoint: "./"
+          channelId: live
